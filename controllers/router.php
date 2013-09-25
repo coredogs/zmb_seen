@@ -19,10 +19,14 @@ fetch.php, in the controllers directory.
 
 This router will call the method main of the controller, and pass it 
 parameters from the URL.
+ 
+If no parameters are supplied (e.g., http://xxx.com), a controller called
+default will run.
 
 There are some sample files showing usage:
 
 controllers/show.php - show some data.
+controllers/default.php - a default controller.
 models/zombie.php - model for zombies.
 views/zombie.php - view for showing zombie data.
 views/templates/one_zombie.php - template views/zombie.php uses to show data.
