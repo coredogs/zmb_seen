@@ -1,3 +1,4 @@
 # Ignore Netbeans config files.
 netbeans/
 netbeans/*
+/nbproject/private/
